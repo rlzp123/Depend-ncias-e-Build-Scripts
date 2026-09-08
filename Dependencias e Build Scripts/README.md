@@ -1,16 +1,36 @@
-# React + Vite
+# Toco & Teco Mobile Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Projeto React + Vite + Capacitor para transformar uma interface web em aplicativo Android.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Node.js 20+
+- npm
+- Android Studio com Android SDK
+- JDK 21 configurado para o Gradle do Android
 
-## React Compiler
+## Scripts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `npm install`
+- `npm run dev` — inicia o ambiente web
+- `npm run build` — gera a pasta `dist`
+- `npm run lint` — verifica o código com Oxlint
+- `npm run android:sync` — sincroniza a web build com o projeto Android
+- `npm run android:open` — abre o projeto no Android Studio
+- `npm run android:build` — gera o APK de debug do Android
 
-## Expanding the Oxlint configuration
+## Execução local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Instale as dependências:
+   `npm install`
+2. Rode a aplicação web:
+   `npm run dev`
+3. Para compilar o Android:
+   `npm run android:sync`
+   `npm run android:build`
+
+## Observações
+
+- O projeto usa Vite para frontend.
+- O Capacitor gera a camada nativa Android a partir da pasta `dist`.
+- Arquivos gerados (`dist`, `node_modules`, `android` build outputs) ficam ignorados pelo Git para manter a estrutura limpa.
