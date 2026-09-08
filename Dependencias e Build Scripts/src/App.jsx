@@ -13,11 +13,11 @@ function App() {
     <div className="app">
       <header className="navbar">
         <div className="brand">
-          <div className="brand-icon">T&T</div>
+          <div className="brand-icon">ML</div>
 
           <div>
-            <strong>Toco & Teco</strong>
-            <span>Mobile Lab</span>
+            <strong>Mobile Lab</strong>
+            <span>React + Capacitor</span>
           </div>
         </div>
 
@@ -252,8 +252,8 @@ function App() {
 
       <footer>
         <div>
-          <strong>Toco & Teco</strong>
-          <span>Projeto acadêmico</span>
+          <strong>Mobile Lab</strong>
+          <span>Projeto React + Capacitor</span>
         </div>
 
         <span>React · Vite · Capacitor</span>
