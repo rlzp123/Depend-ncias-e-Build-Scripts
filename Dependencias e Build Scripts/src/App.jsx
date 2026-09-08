@@ -1,7 +1,6 @@
 import "./index.css";
 
-function App() {
-  const abrirCamera = () => {
+function App() { going
     alert("📷 Câmera: integração nativa será feita com o Capacitor.");
   };
 
@@ -13,10 +12,10 @@ function App() {
     <div className="app">
       <header className="navbar">
         <div className="brand">
-          <div className="brand-icon">Dependencias</div>
+          <div className="brand-icon">T&T</div>
 
           <div>
-            <strong>Dependencias</strong>
+            <strong>Dependências</strong>
             <span>Mobile Lab</span>
           </div>
         </div>
@@ -30,7 +29,7 @@ function App() {
       <main>
         <section className="hero">
           <div className="hero-content">
-            <span className="eyebrow">REACT × CAPACITOR</span>
+            <span className="eyebrow">REACT_CAPACITOR</span>
 
             <h1>
               Da web para o
@@ -252,7 +251,7 @@ function App() {
 
       <footer>
         <div>
-          <strong>Builds e Scripts</strong>
+          <strong>Build Scripts</strong>
           <span>Projeto acadêmico</span>
         </div>
 
@@ -260,6 +259,4 @@ function App() {
       </footer>
     </div>
   );
-}
-
 export default App;
